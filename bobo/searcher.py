@@ -15,8 +15,10 @@ def find_bobo_path(path, GREAT_BOBO):
 
 bobo_path = find_bobo_path(path, 'bobo.txt')
 
+
 if bobo_path == None:
     print('где же этот чертов бобо')
     exit(0)
 
 print(open(bobo_path).read())
+print(bobo_path)
